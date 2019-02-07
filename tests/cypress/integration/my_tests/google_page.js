@@ -7,6 +7,15 @@ describe('Google page test', function () {
         cy.visit(Cypress.config().google_page)
     });
 
+    it('To check if there is any image', function () {
+        cy.get('#hplogo').hasOwnProperty('img')
+    });
+
+    it('To check if there is alt text for image', function () {
+        cy
+            .get('#hplogo').should('have.attr','alt','Google')
+    });
+
     it('To check for aria attributes for google search button', function () {
         cy.get('[type="submit"]').should('have.attr','aria-label', 'Google Search')
     });
