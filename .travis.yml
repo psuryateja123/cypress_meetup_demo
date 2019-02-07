@@ -16,3 +16,10 @@ jobs:
   include:
     - stage: tests
       script: npm run cypress_tests
+
+    - stage: tests
+      addons:
+        chrome: stable
+      name: Axe_tests
+      script:
+        - npm run axe_tests
