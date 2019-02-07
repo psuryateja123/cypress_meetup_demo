@@ -15,6 +15,7 @@ stages:
 jobs:
   include:
     - stage: tests
+      name: Cypress_tests
       script: npm run cypress_tests
 
     - stage: tests
