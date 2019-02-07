@@ -1,0 +1,24 @@
+{
+  "name": "surya-backstop",
+  "version": "0.8.0",
+  "description": "its a sample",
+  "sasslintConfig": "config/sass-lint.yml",
+  "scripts": {
+    "cypress_tests": "cypress run --project ./tests"
+  },
+  "dependencies": {
+    "cypress": "^3.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "del": "^3.0.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "files": [
+    "dist",
+    "packages"
+  ],
+  "license": "MIT"
+}

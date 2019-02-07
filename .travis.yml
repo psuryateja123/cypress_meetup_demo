@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "lts/*"
+cache:
+   directories:
+      - ~/.npm
+      - ~/.cache
+stages:
+  - tests
+  - name: master
+    if: branch = master
+  - name: tag
+    if: tag IS present
+
+jobs:
+  include:
+    - stage: tests
+      script: npm run cypress_tests
