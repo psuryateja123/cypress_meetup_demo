@@ -35,4 +35,10 @@ This will run all the tests that are in integration folder on a headless browser
 
 * These tests are intended to run as a first run before doing manual accessibility tests.
 
+#### Apart from running the accessibility tests mentioned above. I have included aXe library that will run a scan on the URL for accessibility compliance. 
 
+* Tests related to aXe library can be invoke by using a axe_tests, as I have configured the same in package.json. 
+
+```
+npm run axe_tests
+```
