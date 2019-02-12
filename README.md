@@ -29,7 +29,8 @@ npm run cypress_tests
 ```
 as I have configured cypress_tests as a argument in [package.json](https://github.com/psuryateja123/cypress_meetup_demo/blob/master/package.json).
 
-** This will run all the tests that are in integration folder on a headless browser called Electron.
+
+This will run all the tests that are in integration folder on a headless browser called Electron.
 
 
 * These tests are intended to run as a first run before doing manual accessibility tests.
