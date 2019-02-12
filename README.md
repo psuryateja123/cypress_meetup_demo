@@ -14,7 +14,8 @@
 
 #### The project has a integration folder where alL the tests exists. The checks for the aria attributes exists in here.
 
-### Running tests: Considered that you have already cloned the project. You can run tests in two ways - Using Dashboard and using Commandline.
+#### Running tests: Considered that you have already cloned the project. You can run tests in two ways - Using Dashboard and using Commandline.
+
 
 * Using Dashboard: Navigate to top level of the Cypress folder structure. 
 ** Type npx cypress open 
@@ -27,6 +28,7 @@
 npm run cypress_tests
 ```
 as I have configured cypress_tests as a argument in [package.json](https://github.com/psuryateja123/cypress_meetup_demo/blob/master/package.json).
+
 ** This will run all the tests that are in integration folder on a headless browser called Electron.
 
 
