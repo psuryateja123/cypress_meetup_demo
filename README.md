@@ -34,6 +34,7 @@ This will run all the tests that are in integration folder on a headless browser
 
 
 * These tests are intended to run as a first run before doing manual accessibility tests.
+* [Travis logs](https://github.com/psuryateja123/cypress_meetup_demo/blob/master/travis_logs.png) 
 
 #### Apart from running the accessibility tests mentioned above. I have included aXe library that will run a scan on the URL for accessibility compliance. 
 
@@ -42,6 +43,3 @@ This will run all the tests that are in integration folder on a headless browser
 ```
 npm run axe_tests
 ```
-
-
-* [Travis logs](https://github.com/psuryateja123/cypress_meetup_demo/blob/master/travis_logs.png) 
