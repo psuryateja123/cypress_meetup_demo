@@ -44,4 +44,4 @@ npm run axe_tests
 ```
 
 
-* [Travis logs] (https://github.com/psuryateja123/cypress_meetup_demo/blob/master/travis_logs.png) 
+* [Travis logs](https://github.com/psuryateja123/cypress_meetup_demo/blob/master/travis_logs.png) 
