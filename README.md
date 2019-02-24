@@ -10,13 +10,13 @@
 * Mental health
 * Learning.
 
-### with this framework, we can able to cover the tests related to vision, hearing. Rest can be done manually.
+### With this framework, we can able to cover the tests related to vision, hearing. Rest can be done manually.
 
 ####  aria attributes, background colour can be tested using this framework. Used aXe library to test the colour contrast and all the other accessibility tests with respect to the Accessibility standards. The accessibility failures can be view as a log.
 
-#### The project has a integration folder where alL the tests exists. The checks for the aria attributes exists in here.
+#### The project has a integration folder where all the tests exists.
 
-#### Running tests: Considered that you have already cloned the project. You can run tests in two ways - Using Dashboard and using Commandline.
+#### Running tests: Considered that you have already cloned the project. You can run tests in two ways - using Dashboard and using Commandline.
 
 
 * Using Dashboard: Navigate to top level of the Cypress folder structure. 
@@ -40,7 +40,7 @@ This will run all the tests that are in integration folder on a headless browser
 
 #### Apart from running the accessibility tests mentioned above. I have included aXe library that will run a scan on the URL for accessibility compliance. 
 
-* Tests related to aXe library can be invoke by using a axe_tests, as I have configured the same in package.json. 
+* Tests related to aXe library can be invoked by using axe_tests argument mentioned below, as I have configured the same in package.json. 
 
 ```
 npm run axe_tests
