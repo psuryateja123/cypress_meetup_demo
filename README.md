@@ -25,7 +25,7 @@
 ** Once click, browser will be opened and tests will run in them.
 
 * Using Command Line or CI:
-** Type 
+* Type
 ```
 npm run cypress_tests
 ```
