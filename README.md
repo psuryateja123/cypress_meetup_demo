@@ -20,9 +20,9 @@
 
 
 * Using Dashboard: Navigate to top level of the Cypress folder structure. 
-** Type npx cypress open 
-** A dashboard appears, click on any test that you wish to run. 
-** Once click, browser will be opened and tests will run in them.
+* Type npx cypress open 
+* A dashboard appears, click on any test that you wish to run. 
+* Once click, browser will be opened and tests will run in them.
 
 * Using Command Line or CI:
 * Type
