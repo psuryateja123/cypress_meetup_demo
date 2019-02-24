@@ -1,6 +1,6 @@
 # cypress_demo
 
-### This is presented in [Frontend NE](https://frontendne.co.uk/events/2019-02-07) long with these slides.
+### This is presented in [Frontend NE](https://frontendne.co.uk/events/2019-02-07) long with these [slides](https://github.com/psuryateja123/cypress_meetup_demo/blob/master/cypress_conference.pptx).
 
 ### Accessibility needs/testing can be classified into 
 
