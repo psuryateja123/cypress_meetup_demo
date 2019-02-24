@@ -19,12 +19,12 @@
 #### Running tests: Considered that you have already cloned the project. You can run tests in two ways - using Dashboard and using Commandline.
 
 
-* Using Dashboard: Navigate to top level of the Cypress folder structure. 
+#### Using Dashboard: Navigate to top level of the Cypress folder structure. 
 * Type npx cypress open 
 * A dashboard appears, click on any test that you wish to run. 
-* Once click, browser will be opened and tests will run in them.
+* Once clicked, then browser will be opened and test will run on it.
 
-* Using Command Line or CI:
+#### Using Command Line or CI:
 * Type
 ```
 npm run cypress_tests
