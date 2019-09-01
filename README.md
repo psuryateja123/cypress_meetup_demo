@@ -10,9 +10,9 @@
 * Mental health
 * Learning.
 
-### With this framework, we can able to cover the tests related to vision, hearing. Rest can be done manually.
+### With this framework, we can able to cover the accessibility tests related to vision, hearing. Rest can be done manually.
 
-####  aria attributes, background colour can be tested using this framework. Used aXe library to test the colour contrast and all the other accessibility tests with respect to the Accessibility standards. The accessibility failures can be view as a log.
+####  aria attributes, background colour can be tested using this framework. Used aXe library to test the colour contrast and all the other accessibility tests with respect to the Accessibility standards. The accessibility failures can be viewed as a log.
 
 #### The project has a integration folder where all the tests exists.
 
