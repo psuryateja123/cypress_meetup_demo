@@ -11,10 +11,10 @@ describe('Google page test', function () {
         cy.get('#hplogo').hasOwnProperty('img')
     });
 
-    it('To check if there is alt text for image', function () {
-
-        cy.get('#hplogo').should('have.attr','alt','Google')
-    });
+    // it('To check if there is alt text for image', function () {
+    //
+    //     cy.get('#hplogo').should('have.attr','alt','Google')
+    // });
 
     it('To check for aria attributes for google search button', function () {
 
@@ -29,6 +29,11 @@ describe('Google page test', function () {
     });
 
     it('Focus on Gmail', function () {
+        cy
+            .get('.gb_e').last().focus()
+    });
+
+    it('For running the axe tests', function () {
         cy
             .get('.gb_e').last().focus()
     });
