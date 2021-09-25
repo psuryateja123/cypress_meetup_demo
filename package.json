@@ -8,12 +8,15 @@
     "axe_tests": "axe https://www.google.com/"
   },
   "dependencies": {
+    "axe": "^4.0.4",
     "axe-cli": "^3.0.0",
-    "cypress": "^3.1.5"
+    "axe-webdriverjs": "^2.3.0",
+    "cypress": "^3.8.3"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
+    "axe-core": "^3.3.2",
     "babel-loader": "^8.0.4",
     "del": "^3.0.0",
     "webpack-stream": "^5.2.1"
